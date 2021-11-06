@@ -25,7 +25,7 @@
     <br>
     <div class="hints-view" v-for="hint in this.problem.hints" :key="hint">
 
-        <p> {{hint}} </p>
+        <p> Hint: {{hint}} </p>
 
     </div>
     <button class="add" @click="addHint(newHint)">Add Hint</button>
@@ -189,5 +189,9 @@ button img {
 }
 #hint-add-p {
   color: pink;
+}
+.hints-view p {
+  border-radius: 8px;
+  background: white;
 }
 </style>

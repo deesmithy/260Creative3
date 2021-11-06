@@ -8,7 +8,7 @@
     </div>
     <router-view/>
     <footer>
-      The code for this lab can be found here... <a href="#" target="_blank">Github</a>
+      The code for this lab can be found here... <a href="https://github.com/deesmithy/260Creative3.git" target="_blank">Github</a>
     </footer>
   </div>
 
